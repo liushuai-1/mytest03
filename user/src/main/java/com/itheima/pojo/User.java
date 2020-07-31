@@ -18,6 +18,11 @@ public class User implements Serializable {
                 '}';
     }
 
+    //空参构造
+
+    public User() {
+    }
+
     //setter&getter
 
     public String getUsername() {
